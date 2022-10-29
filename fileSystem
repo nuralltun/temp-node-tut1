@@ -1,0 +1,51 @@
+const fs = require('fs');
+
+// const file = fs.readdir('./', function(error,data){
+//     if(error){
+//         console.log(error);
+//     } else {
+//         console.log(data);
+//     }
+// });
+
+// //dosya açma
+// const data= fs.readFile('path.js', 'utf-8', function(error,data){
+//     if(error){
+//         console.log(errror);
+//     }else{ 
+//         console.log(data);
+//     }
+// });
+
+
+//dosya oluşturma
+// fs.writeFile('deneme.txt', 'Hello world' , function(error){
+//     if(error){
+//         console.log(error);
+//     }else{
+//         console.log('Deneme oluşturuldu..');
+//     }
+// });
+
+//dosya oluşturur ama sonradan düzenlendğinde yanına ekler yazıyı
+// fs.appendFile('deneme1.txt', 'Hello world' , function(error){
+//     if(error){
+//         console.log(error);
+//     }else{
+//         console.log('Deneme oluşturuldu..');
+//     }
+// });
+
+
+//dosya silme işlemi
+// fs.unlink('deneme1.txt', function(error){
+//     console.log('dosya silindi');
+// })
+
+
+
+//dosya ismi değştirme işlemi
+
+// fs.rename('deneme.txt','deneme123.txt' ,function(error){
+//     console.log('dosya ismi değiştirildi..');
+// })
